@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0F1A35;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B2A4E;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    gap: 10px;
+}
+
+.information p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
